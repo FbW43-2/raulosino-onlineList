@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+#main-container{
+    width:100%;
+    height:100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ebecee;
+}
+
+#content-div{
+    width: 80%;
+    min-width: 400px;
+    min-height: 100vh;
+    background-color: white
+}
+
+#header{
+    padding: 1rem;
+    padding-bottom: 0rem;
+    background-color: #a30202;
+    color:white;
+}
+#main-title{
+    margin-left: 0.5rem;
+}
+
+#form-div{
+    width: 100%;
+    background-color: #a30202;
+    color:white;
+    padding: 1rem;
+    padding-top: 0rem;
+
+}
+
+
+#form-container{
+    width:100%;
+    padding: 1rem;
+    color:white;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+#generate {
+    background-color:white; 
+    color:black;  
+}
+#generate:hover{
+    background-color:gray; 
+    color:white; 
+}
+#generate:active,#generate:focus{
+    background-color:white; 
+    color:black;  
+}
+
+.test{
+    color:black;
+}
+
+#task-template{
+    /* display: none; */
+}
+
+.task-div{
+    background-color:#cccccc;
+    min-height: 100px;
+    width: 100%;
+    margin-top: 0.5rem;
+    color:black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.task-div h3{
+    margin-bottom: 0.5rem;
+}
+
+.task-content{
+    min-width: 50%;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-title{
+    align-items: center;
+}
+
+input[type='checkbox'] {
+    transform : scale(1.1);
+}
+
+.task-check{
+    margin-left: 0.5rem;
+}
+
+.delete{
+    max-height: 40px;
+    background-color: #a30202;
+}
+
+.delete:hover{
+    background-color:white; 
+    color:black; 
+}
